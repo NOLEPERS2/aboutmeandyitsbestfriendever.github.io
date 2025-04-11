@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Page</title>
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      padding: 0;
+    /*  background: #121212; /* dark background */
+      background-image: url(evening-sky.png);
+      background-size: auto;
+      font-family: Arial, sans-serif;
+      color: #cdd6f4;
+    }
+
+    /* Navbar with blur effect */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #1e1e2e69;
+      backdrop-filter: blur(12px);
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    }
+    .navbar a {
+      color: #cdd6f4;
+      text-decoration: none;
+      margin-left: 15px;
+    }
+
+    /* Content container */
+    .content {
+      padding-top: 600px; /* to avoid overlap with fixed navbar */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding-bottom: 600px;
+    }
+
+    /* Card with black background and rounded corners */
+    .card {
+      backdrop-filter: blur(12px);
+      background: #1e1e2e69;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      max-width: 600px;
+      text-align: center;
+      max-height: fit-content;
+      font-family: "Hack Nerd Font";
+    }
+
+    @font-face {
+      font-family: "Hack Nerd Font";
+      src: url("HackNerdFont-Regular.ttf") format("truetype");
+    }
+
+    p {
+      line-height: 1;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Blurred Navbar -->
+  <div class="navbar">
+    <div class="logo">
+      <a href="#">About Me</a>
+    </div>
+    <div class="nav-links">
+      <a href="https://facebook.com">Facebook</a>
+      <a href="#">YouTube</a>
+      <a href="#">WhatsApp</a>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <div class="card">
+      <h1>Question And Answer For Andi(k)</h1>
+
+       <p>Q: Bang Nama Asli Kamu Apa?</p>
+        <p>A: Andik Firmansyah</p>
+
+        <p>Q: Umur Kamu Berapa?</p>
+        <p>A: 13 Tahun</p>
+
+        <p>Q: Game Kesukaan Kamu Apa Bang?</p>
+        <p>A: Minecraft, TheoTown, GD, FreeFire</p>
+
+        <p>Q: Bang Face Reveal Dong!</p>
+        <p>A: Muka Ku Biasa Aja Guys</p>
+
+        <p>Q: Pake HP Apa Bang?</p>
+        <p>A: Infinix Smart 8</p>
+
+        <p>Q: Pake Laptop Apa Bang?</p>
+        <p>A: ThinkPad T430</p>
+
+        <p>Q: Bang Kamu Kok Jarang Keluar?</p>
+        <p>A: Aku Tidak Punya Teman Ya Guys</p>
+
+        <p>Q: Pake Text Editor/IDE Apa Bang?</p>
+        <p>A: Vim, NeoVim, VScode, Emacs</p>
+
+        <p>Q: Pake OS Apa Bang?</p>
+        <p>A: Aku Pakai Arch Linux</p>
+
+        <p>Q: Bang Gimana Cara Belajar Ngoding?</p>
+        <p>A: Aku Saranin Nonton Tutorial Di YouTube Ya</p>
+
+        <p>Q: Bang Kamu Femboy?</p>
+        <p>A: No</p>
+
+        <p>Q: Kenapa Desktop Kamu Sangat Minimalis Bang?</p>
+        <p>A: Aku Suka Yang Minimalis</p>
+
+        <p>Q: Alasan Jadi Programmer?</p>
+        <p>A: Masih Belum Tentu Apa Tujuan Nya</p>
+
+        <p>Q: Waifu?</p>
+        <p>A: Cyber Arch Chan By Ravimo</p>
+
+        <p>Q: Jago Gambar Gak Bang?</p>
+        <p>A: Lumayan Jago</p>
+    </div>
+  </div>
+
+</body>
+</html>
